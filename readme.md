@@ -33,7 +33,7 @@ deletionPolicy: Delete
 $ kubectl apply -f volume-snapshot-class.yaml
 ```
 
-#### Step 5. Set Basic Authentication for K10:
+### Step 5. Set Basic Authentication for K10:
 ```
 $ htpasswd -c -B -b htpass.pass geoff Mytoughpassword
 $ htpasswd -B -b htpass.pass heather  passworddifficult
