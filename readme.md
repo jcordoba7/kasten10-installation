@@ -1,7 +1,7 @@
 # Installing and Setting up Kasten 10 on an OKE cluster
 
 
-### Step 1. Configure OCI Block Volume as the default storage class:
+### Step 1. ### Configure OCI Block Volume as the default storage class:
 ```
 $ kubectl patch storageclass oci -p '{"metadata": {"annotations": {"storageclass.beta.kubernetes.io/is-default-class":"false"}}}'
 $ kubectl patch storageclass oci-bv -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
