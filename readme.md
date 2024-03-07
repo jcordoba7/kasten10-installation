@@ -16,7 +16,7 @@ $ kubectl apply -f https://raw.githubusercontent.com/kubernetes-csi/external-sna
 
 ### Step 3. Define a Volume Snapshot Class that leverages the blockvolume.csi.oraclecloud.com CSI Driver:
 
-* Create a yaml file called 'volume-snapshot-class.yaml', with the following content:
+* Create a yaml file called ```'volume-snapshot-class.yaml'```, with the following content:
 ```
 apiVersion: snapshot.storage.k8s.io/v1
 kind: VolumeSnapshotClass
